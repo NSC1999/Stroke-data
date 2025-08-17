@@ -1,0 +1,65 @@
+﻿feature,original_value,mapped_value,count
+f1_Cultural Value,"(9.0, 10.0]",0,161
+f1_Cultural Value,"(0.999, 7.0]",1,475
+f1_Cultural Value,"(7.0, 9.0]",2,514
+,,,
+f2_Storytelling (IP Attribute),"(7.0, 10.0]",3,371
+f2_Storytelling (IP Attribute),"(0.999, 6.0]",4,541
+f2_Storytelling (IP Attribute),"(6.0, 7.0]",5,238
+,,,
+f3_Artistic Quality,"(8.0, 10.0]",6,365
+f3_Artistic Quality,"(2.999, 7.5]",7,404
+f3_Artistic Quality,"(7.5, 8.0]",8,381
+,,,
+f4_Aesthetic Fineness,"(7.0, 8.0]",9,392
+f4_Aesthetic Fineness,"(1.999, 7.0]",10,478
+f4_Aesthetic Fineness,"(8.0, 10.0]",11,280
+,,,
+f5_Uniqueness,"(7.0, 8.0]",12,322
+f5_Uniqueness,"(2.999, 7.0]",13,640
+f5_Uniqueness,"(8.0, 10.0]",14,188
+,,,
+f6_Practicality,"(5.0, 7.0]",15,479
+f6_Practicality,"(0.999, 5.0]",16,402
+f6_Practicality,"(7.0, 10.0]",17,269
+,,,
+f7_Playfulness and Interactivity,"(3.0, 5.0]",18,288
+f7_Playfulness and Interactivity,"(5.0, 10.0]",19,309
+f7_Playfulness and Interactivity,"(0.999, 3.0]",20,553
+,,,
+f8_Technological Appeal,"(3.0, 73.0]",21,350
+f8_Technological Appeal,"(1.0, 3.0]",22,248
+f8_Technological Appeal,"(-0.001, 1.0]",23,552
+,,,
+f9_Emotional Resonance and Memorability,"(8.0, 10.0]",24,381
+f9_Emotional Resonance and Memorability,"(7.0, 8.0]",25,326
+f9_Emotional Resonance and Memorability,"(1.999, 7.0]",26,443
+,,,
+f10_Topicality,"(6.0, 8.0]",27,573
+f10_Topicality,"(0.999, 6.0]",28,384
+f10_Topicality,"(8.0, 10.0]",29,193
+,,,
+f11_Personalization,"(5.0, 7.0]",30,393
+f11_Personalization,"(-0.001, 5.0]",31,471
+f11_Personalization,"(7.0, 10.0]",32,286
+,,,
+f12_Series Association,"(5.0, 8.0]",33,414
+f12_Series Association,"(8.0, 10.0]",34,280
+f12_Series Association,"(-0.001, 5.0]",35,456
+,,,
+f13_Channel Attributes,"(8.0, 10.0]",36,334
+f13_Channel Attributes,"(0.999, 7.0]",37,558
+f13_Channel Attributes,"(7.0, 8.0]",38,258
+,,,
+f14_Environmental Friendliness,"(4.0, 6.0]",39,489
+f14_Environmental Friendliness,"(0.999, 4.0]",40,419
+f14_Environmental Friendliness,"(6.0, 10.0]",41,242
+,,,
+f15_price,"(67.25, 2170.0]",42,383
+f15_price,"(22.7, 67.25]",43,383
+f15_price,"(0.989, 22.7]",44,384
+,,,
+f16_table,"(-0.001, 1.0]",45,396
+f16_table,"(3.0, 4.0]",46,256
+f16_table,"(1.0, 3.0]",47,498
+,,,
