@@ -1,0 +1,947 @@
+{
+  "version": "0.2",
+  "generated_from": "stroke.csv (re-inferred)",
+  "columns": [
+    {
+      "name": "Comorbidity Count",
+      "type": "ordinal",
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n": 751,
+      "n_missing": 0,
+      "unique": 4,
+      "inferred": "ordinal"
+    },
+    {
+      "name": "age",
+      "type": "categorical",
+      "allowed_values": [
+        12,
+        19,
+        22,
+        23,
+        24,
+        25,
+        27,
+        29,
+        30,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "n": 751,
+      "n_missing": 0,
+      "unique": 66,
+      "inferred": "categorical"
+    },
+    {
+      "name": "sex",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "diabetes",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "hypertension",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "slurred speech",
+      "type": "ordinal",
+      "order": [
+        -1,
+        0,
+        1
+      ],
+      "n": 751,
+      "n_missing": 0,
+      "unique": 3,
+      "inferred": "ordinal"
+    },
+    {
+      "name": "dysphagia",
+      "type": "ordinal",
+      "order": [
+        -1,
+        0,
+        1
+      ],
+      "n": 751,
+      "n_missing": 0,
+      "unique": 3,
+      "inferred": "ordinal"
+    },
+    {
+      "name": "constipation",
+      "type": "ordinal",
+      "order": [
+        -1,
+        0,
+        1
+      ],
+      "n": 751,
+      "n_missing": 0,
+      "unique": 3,
+      "inferred": "ordinal"
+    },
+    {
+      "name": "Sleep well",
+      "type": "ordinal",
+      "order": [
+        -1,
+        0,
+        1
+      ],
+      "n": 751,
+      "n_missing": 0,
+      "unique": 3,
+      "inferred": "ordinal"
+    },
+    {
+      "name": "History of trauma surgery",
+      "type": "ordinal",
+      "order": [
+        -1,
+        0,
+        1
+      ],
+      "n": 751,
+      "n_missing": 0,
+      "unique": 3,
+      "inferred": "ordinal"
+    },
+    {
+      "name": "Smoking",
+      "type": "ordinal",
+      "order": [
+        -1,
+        0,
+        1
+      ],
+      "n": 751,
+      "n_missing": 0,
+      "unique": 3,
+      "inferred": "ordinal"
+    },
+    {
+      "name": "drink",
+      "type": "ordinal",
+      "order": [
+        -1,
+        0,
+        1
+      ],
+      "n": 751,
+      "n_missing": 0,
+      "unique": 3,
+      "inferred": "ordinal"
+    },
+    {
+      "name": "Left upper brunnstrom",
+      "type": "numeric",
+      "range": {
+        "min": -1.0,
+        "max": 6.0
+      },
+      "summary": {
+        "mean": 1.719041278295606,
+        "std": 2.041149254617889
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 9,
+      "inferred": "numeric"
+    },
+    {
+      "name": "Left lower brunnstrom",
+      "type": "numeric",
+      "range": {
+        "min": -1.0,
+        "max": 6.0
+      },
+      "summary": {
+        "mean": 1.933422103861518,
+        "std": 1.920996652849097
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 9,
+      "inferred": "numeric"
+    },
+    {
+      "name": "right upper brunnstrom",
+      "type": "numeric",
+      "range": {
+        "min": -1.0,
+        "max": 6.0
+      },
+      "summary": {
+        "mean": 2.1171770972037285,
+        "std": 2.0520521161172853
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 12,
+      "inferred": "numeric"
+    },
+    {
+      "name": "right lower brunnstrom",
+      "type": "numeric",
+      "range": {
+        "min": -1.0,
+        "max": 6.0
+      },
+      "summary": {
+        "mean": 2.1864181091877497,
+        "std": 2.031715683755551
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 12,
+      "inferred": "numeric"
+    },
+    {
+      "name": "left upper Ashworth",
+      "type": "numeric",
+      "range": {
+        "min": -1.0,
+        "max": 4.5
+      },
+      "summary": {
+        "mean": 0.26498002663115844,
+        "std": 1.0258453260281815
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 10,
+      "inferred": "numeric"
+    },
+    {
+      "name": "left lower Ashworth",
+      "type": "numeric",
+      "range": {
+        "min": -1.0,
+        "max": 4.5
+      },
+      "summary": {
+        "mean": 0.04660452729693742,
+        "std": 0.8879706012735685
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 9,
+      "inferred": "numeric"
+    },
+    {
+      "name": "right upper Ashworth",
+      "type": "numeric",
+      "range": {
+        "min": -1.0,
+        "max": 4.0
+      },
+      "summary": {
+        "mean": 0.05659121171770972,
+        "std": 0.9932068421713558
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 8,
+      "inferred": "numeric"
+    },
+    {
+      "name": "right lower Ashworth",
+      "type": "numeric",
+      "range": {
+        "min": -1.0,
+        "max": 4.0
+      },
+      "summary": {
+        "mean": -0.06790945406125166,
+        "std": 0.8702770576798142
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 7,
+      "inferred": "numeric"
+    },
+    {
+      "name": "coronary heart disease",
+      "type": "ordinal",
+      "order": [
+        -1,
+        0,
+        1
+      ],
+      "n": 751,
+      "n_missing": 0,
+      "unique": 3,
+      "inferred": "ordinal"
+    },
+    {
+      "name": "Hemiplegia, left or right",
+      "type": "ordinal",
+      "order": [
+        -1,
+        0,
+        1
+      ],
+      "n": 751,
+      "n_missing": 0,
+      "unique": 3,
+      "inferred": "ordinal"
+    },
+    {
+      "name": "cerebral hemorrhage",
+      "type": "ordinal",
+      "order": [
+        -1,
+        0,
+        1
+      ],
+      "n": 751,
+      "n_missing": 0,
+      "unique": 3,
+      "inferred": "ordinal"
+    },
+    {
+      "name": "pons",
+      "type": "ordinal",
+      "order": [
+        -1,
+        0,
+        1
+      ],
+      "n": 751,
+      "n_missing": 0,
+      "unique": 3,
+      "inferred": "ordinal"
+    },
+    {
+      "name": "frontal lobe",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "temporal lobe",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": " occipital lobe",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "frontotem poroparietal lobe",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "frontotemporal lobe",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "ventricle",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "basal ganglia region",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "cerebellum",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "brainstem",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "thalamus",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "cognitive disorder",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "cerebral infarction",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "Periventricular area",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "cerebellar ",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "internal capsule",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "lobus insularis",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "cerebral hemisphere",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "Middle cerebral artery region",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "hemioval center",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "Glucose_high",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "Erythrocyte sedimentation rate (ESR) (mm/H)",
+      "type": "categorical",
+      "allowed_values": [
+        -1,
+        0,
+        13,
+        16,
+        17,
+        20,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        30,
+        31,
+        33,
+        35,
+        36,
+        37,
+        38,
+        40,
+        42,
+        44,
+        45,
+        46,
+        49,
+        50,
+        51,
+        52,
+        55,
+        57,
+        60,
+        62,
+        63,
+        65,
+        66,
+        67,
+        70,
+        72,
+        80,
+        83,
+        85,
+        90,
+        92,
+        93,
+        95,
+        97,
+        100,
+        103,
+        108
+      ],
+      "n": 751,
+      "n_missing": 0,
+      "unique": 54,
+      "inferred": "categorical"
+    },
+    {
+      "name": "Direct bilirubin (umol/L)",
+      "type": "numeric",
+      "range": {
+        "min": -1.0,
+        "max": 29.9
+      },
+      "summary": {
+        "mean": 0.6973368841544608,
+        "std": 3.5608940214068543
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 67,
+      "inferred": "numeric"
+    },
+    {
+      "name": "Indirect bilirubin (IBI)(umol/L)",
+      "type": "numeric",
+      "range": {
+        "min": -1.0,
+        "max": 24.3
+      },
+      "summary": {
+        "mean": 0.970306258322237,
+        "std": 4.183708088854605
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 72,
+      "inferred": "numeric"
+    },
+    {
+      "name": "ALB_low",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "TC_low",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "Triglyceride (TG) (mmol/L)",
+      "type": "numeric",
+      "range": {
+        "min": -1.0,
+        "max": 8.81
+      },
+      "summary": {
+        "mean": 0.028468708388814903,
+        "std": 1.6948136334180022
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 122,
+      "inferred": "numeric"
+    },
+    {
+      "name": "Uric acid (UA)(umol/L)",
+      "type": "numeric",
+      "range": {
+        "min": -1.0,
+        "max": 1473.0
+      },
+      "summary": {
+        "mean": 63.20613848202397,
+        "std": 160.40905337626302
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 108,
+      "inferred": "numeric"
+    },
+    {
+      "name": "CRP_high",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "APOA1_measured",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "D-Dimer_high",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "NEUT_high",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "Pain Limitation",
+      "type": "ordinal",
+      "order": [
+        -1,
+        0,
+        1
+      ],
+      "n": 751,
+      "n_missing": 0,
+      "unique": 3,
+      "inferred": "ordinal"
+    },
+    {
+      "name": "Lesion Type (Hemorrhage/Infarction) (0=Infarction, 1=Hemorrhage)",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "Babinski Sign",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "Bowel Incontinence",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "Urinary Catheter",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "Temporal Orientation",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "Spatial Orientation",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "Person Orientation",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "Arithmetic Ability",
+      "type": "binary",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      },
+      "n": 751,
+      "n_missing": 0,
+      "unique": 2,
+      "inferred": "binary"
+    },
+    {
+      "name": "target",
+      "type": "ordinal",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "n": 751,
+      "n_missing": 0,
+      "unique": 5,
+      "inferred": "ordinal"
+    }
+  ]
+}

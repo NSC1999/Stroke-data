@@ -1,0 +1,18 @@
+{
+  "precision_macro": null,
+  "recall_macro": null,
+  "f1_macro": null,
+  "precision_micro": null,
+  "recall_micro": null,
+  "f1_micro": null,
+  "sample_size": null,
+  "by_feature": {},
+  "error_types": {
+    "negation_missed": 0,
+    "temporal_leakage": 0,
+    "ambiguous_term": 0,
+    "unit_mismatch": 0,
+    "formatting_error": 0
+  },
+  "notes": "Fill with evaluation against gold_standard annotations."
+}

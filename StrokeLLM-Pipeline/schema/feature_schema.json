@@ -1,0 +1,618 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Stroke 64-feature schema (from inferred rules)",
+  "type": "object",
+  "properties": {
+    "Comorbidity Count": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "age": {
+      "type": "integer",
+      "enum": [
+        12,
+        19,
+        22,
+        23,
+        24,
+        25,
+        27,
+        29,
+        30,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ]
+    },
+    "sex": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "diabetes": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "hypertension": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "slurred speech": {
+      "type": "integer",
+      "enum": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "dysphagia": {
+      "type": "integer",
+      "enum": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "constipation": {
+      "type": "integer",
+      "enum": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "Sleep well": {
+      "type": "integer",
+      "enum": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "History of trauma surgery": {
+      "type": "integer",
+      "enum": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "Smoking": {
+      "type": "integer",
+      "enum": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "drink": {
+      "type": "integer",
+      "enum": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "Left upper brunnstrom": {
+      "type": "number",
+      "minimum": -1.0,
+      "maximum": 6.0
+    },
+    "Left lower brunnstrom": {
+      "type": "number",
+      "minimum": -1.0,
+      "maximum": 6.0
+    },
+    "right upper brunnstrom": {
+      "type": "number",
+      "minimum": -1.0,
+      "maximum": 6.0
+    },
+    "right lower brunnstrom": {
+      "type": "number",
+      "minimum": -1.0,
+      "maximum": 6.0
+    },
+    "left upper Ashworth": {
+      "type": "number",
+      "minimum": -1.0,
+      "maximum": 4.5
+    },
+    "left lower Ashworth": {
+      "type": "number",
+      "minimum": -1.0,
+      "maximum": 4.5
+    },
+    "right upper Ashworth": {
+      "type": "number",
+      "minimum": -1.0,
+      "maximum": 4.0
+    },
+    "right lower Ashworth": {
+      "type": "number",
+      "minimum": -1.0,
+      "maximum": 4.0
+    },
+    "coronary heart disease": {
+      "type": "integer",
+      "enum": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "Hemiplegia, left or right": {
+      "type": "integer",
+      "enum": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "cerebral hemorrhage": {
+      "type": "integer",
+      "enum": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "pons": {
+      "type": "integer",
+      "enum": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "frontal lobe": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "temporal lobe": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    " occipital lobe": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "frontotem poroparietal lobe": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "frontotemporal lobe": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "ventricle": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "basal ganglia region": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "cerebellum": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "brainstem": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "thalamus": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "cognitive disorder": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "cerebral infarction": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "Periventricular area": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "cerebellar ": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "internal capsule": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "lobus insularis": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "cerebral hemisphere": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "Middle cerebral artery region": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "hemioval center": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "Glucose_high": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "Erythrocyte sedimentation rate (ESR) (mm/H)": {
+      "type": "integer",
+      "enum": [
+        -1,
+        0,
+        13,
+        16,
+        17,
+        20,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        30,
+        31,
+        33,
+        35,
+        36,
+        37,
+        38,
+        40,
+        42,
+        44,
+        45,
+        46,
+        49,
+        50,
+        51,
+        52,
+        55,
+        57,
+        60,
+        62,
+        63,
+        65,
+        66,
+        67,
+        70,
+        72,
+        80,
+        83,
+        85,
+        90,
+        92,
+        93,
+        95,
+        97,
+        100,
+        103,
+        108
+      ]
+    },
+    "Direct bilirubin (umol/L)": {
+      "type": "number",
+      "minimum": -1.0,
+      "maximum": 29.9
+    },
+    "Indirect bilirubin (IBI)(umol/L)": {
+      "type": "number",
+      "minimum": -1.0,
+      "maximum": 24.3
+    },
+    "ALB_low": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "TC_low": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "Triglyceride (TG) (mmol/L)": {
+      "type": "number",
+      "minimum": -1.0,
+      "maximum": 8.81
+    },
+    "Uric acid (UA)(umol/L)": {
+      "type": "number",
+      "minimum": -1.0,
+      "maximum": 1473.0
+    },
+    "CRP_high": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "APOA1_measured": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "D-Dimer_high": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "NEUT_high": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "Pain Limitation": {
+      "type": "integer",
+      "enum": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "Lesion Type (Hemorrhage/Infarction) (0=Infarction, 1=Hemorrhage)": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "Babinski Sign": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "Bowel Incontinence": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "Urinary Catheter": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "Temporal Orientation": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "Spatial Orientation": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "Person Orientation": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "Arithmetic Ability": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "target": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  "required": [
+    "Comorbidity Count",
+    "age",
+    "sex",
+    "diabetes",
+    "hypertension",
+    "slurred speech",
+    "dysphagia",
+    "constipation",
+    "Sleep well",
+    "History of trauma surgery",
+    "Smoking",
+    "drink",
+    "Left upper brunnstrom",
+    "Left lower brunnstrom",
+    "right upper brunnstrom",
+    "right lower brunnstrom",
+    "left upper Ashworth",
+    "left lower Ashworth",
+    "right upper Ashworth",
+    "right lower Ashworth",
+    "coronary heart disease",
+    "Hemiplegia, left or right",
+    "cerebral hemorrhage",
+    "pons",
+    "frontal lobe",
+    "temporal lobe",
+    " occipital lobe",
+    "frontotem poroparietal lobe",
+    "frontotemporal lobe",
+    "ventricle",
+    "basal ganglia region",
+    "cerebellum",
+    "brainstem",
+    "thalamus",
+    "cognitive disorder",
+    "cerebral infarction",
+    "Periventricular area",
+    "cerebellar ",
+    "internal capsule",
+    "lobus insularis",
+    "cerebral hemisphere",
+    "Middle cerebral artery region",
+    "hemioval center",
+    "Glucose_high",
+    "Erythrocyte sedimentation rate (ESR) (mm/H)",
+    "Direct bilirubin (umol/L)",
+    "Indirect bilirubin (IBI)(umol/L)",
+    "ALB_low",
+    "TC_low",
+    "Triglyceride (TG) (mmol/L)",
+    "Uric acid (UA)(umol/L)",
+    "CRP_high",
+    "APOA1_measured",
+    "D-Dimer_high",
+    "NEUT_high",
+    "Pain Limitation",
+    "Lesion Type (Hemorrhage/Infarction) (0=Infarction, 1=Hemorrhage)",
+    "Babinski Sign",
+    "Bowel Incontinence",
+    "Urinary Catheter",
+    "Temporal Orientation",
+    "Spatial Orientation",
+    "Person Orientation",
+    "Arithmetic Ability",
+    "target"
+  ]
+}
